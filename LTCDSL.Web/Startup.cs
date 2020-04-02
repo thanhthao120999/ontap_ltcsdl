@@ -42,6 +42,9 @@ namespace LTCSDL.Web
                 app.UseHsts();
             }
 
+            
+            app.UseCors(p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             if (!env.IsDevelopment())
