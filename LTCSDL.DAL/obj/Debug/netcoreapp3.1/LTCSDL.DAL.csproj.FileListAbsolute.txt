@@ -1,0 +1,13 @@
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.deps.json
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.runtimeconfig.json
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.runtimeconfig.dev.json
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.dll
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.pdb
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.Common.dll
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.Common.pdb
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.csprojAssemblyReference.cache
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.AssemblyInfoInputs.cache
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.AssemblyInfo.cs
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.csproj.CopyComplete
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.dll
+F:\TestDotnet\LTCSDL\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.pdb
