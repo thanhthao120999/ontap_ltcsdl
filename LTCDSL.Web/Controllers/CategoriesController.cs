@@ -18,9 +18,9 @@ namespace LTCSDL.Web.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        public CategoriesController(CategoriesSvc s1)
+        public CategoriesController()
         {
-            _svc = s1;
+            _svc = new CategoriesSvc();
         }
 
         [HttpPost("get-by-id")]
