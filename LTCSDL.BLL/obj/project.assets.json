@@ -2114,11 +2114,12 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4964,23 +4965,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HaoLee\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\phama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TestDotnet\\LTCSDL\\LTCSDL.BLL\\LTCSDL.BLL.csproj",
+      "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.BLL\\LTCSDL.BLL.csproj",
       "projectName": "LTCSDL.BLL",
-      "projectPath": "F:\\TestDotnet\\LTCSDL\\LTCSDL.BLL\\LTCSDL.BLL.csproj",
-      "packagesPath": "C:\\Users\\HaoLee\\.nuget\\packages\\",
-      "outputPath": "F:\\TestDotnet\\LTCSDL\\LTCSDL.BLL\\obj\\",
+      "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.BLL\\LTCSDL.BLL.csproj",
+      "packagesPath": "C:\\Users\\phama\\.nuget\\packages\\",
+      "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.BLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HaoLee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4993,11 +4990,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\TestDotnet\\LTCSDL\\LTCSDL.Common\\LTCSDL.Common.csproj": {
-              "projectPath": "F:\\TestDotnet\\LTCSDL\\LTCSDL.Common\\LTCSDL.Common.csproj"
+            "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj": {
+              "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj"
             },
-            "F:\\TestDotnet\\LTCSDL\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {
-              "projectPath": "F:\\TestDotnet\\LTCSDL\\LTCSDL.DAL\\LTCSDL.DAL.csproj"
+            "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {
+              "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\LTCSDL.DAL.csproj"
             }
           }
         }
@@ -5031,7 +5028,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

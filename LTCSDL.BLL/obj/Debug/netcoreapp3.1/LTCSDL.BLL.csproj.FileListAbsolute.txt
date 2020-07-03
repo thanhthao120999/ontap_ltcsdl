@@ -11,3 +11,17 @@ F:\TestDotnet\LTCSDL\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.AssemblyInfo.
 F:\TestDotnet\LTCSDL\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.csproj.CopyComplete
 F:\TestDotnet\LTCSDL\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.dll
 F:\TestDotnet\LTCSDL\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.pdb
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.BLL.deps.json
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.BLL.dll
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.BLL.pdb
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.Common.dll
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.dll
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.Common.pdb
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.pdb
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.csprojAssemblyReference.cache
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.csproj.CoreCompileInputs.cache
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.AssemblyInfoInputs.cache
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.AssemblyInfo.cs
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.csproj.CopyComplete
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.dll
+D:\On thi LTCSDL\LTCSDL-192\LTCSDL.BLL\obj\Debug\netcoreapp3.1\LTCSDL.BLL.pdb

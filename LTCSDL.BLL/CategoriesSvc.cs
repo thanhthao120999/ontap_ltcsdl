@@ -11,6 +11,7 @@ namespace LTCSDL.BLL
 {
     using DAL;    
     using DAL.Models;
+    using Microsoft.Data.SqlClient;
 
     public class CategoriesSvc : GenericSvc<CategoriesRep, Categories>
     {
@@ -50,6 +51,26 @@ namespace LTCSDL.BLL
                 res = base.Update(m);
                 res.Data = m;               
             }
+
+            return res;
+        }
+
+        public object getEmployeeAndToTalByTime(string dateFrom, string dateTo)
+        {
+            var res = new SingleRsp();
+
+            var m = _rep.getEmployeeAndToTalByTime(dateFrom, dateTo);
+            res.Data = m;
+
+            return res;
+        }
+
+        public object nhapThangVaNamXuatDoanhThuTheoQuocGia(int month, int year)
+        {
+            var res = new SingleRsp();
+
+            var m = _rep.nhapThangVaNamXuatDoanhThuTheoQuocGia(month, year);
+            res.Data = m;
 
             return res;
         }

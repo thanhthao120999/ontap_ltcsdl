@@ -39,6 +39,22 @@ namespace LTCSDL.Web.Controllers
             return Ok(res);
         }
 
+        [HttpPost("get-employee-and-total-by-time")]
+        public IActionResult getEmployeeAndToTalByTime(string dateFrom, string dateTo)
+        {
+            var res = new SingleRsp();
+            res.Data = _svc.getEmployeeAndToTalByTime(dateFrom, dateTo);
+            return Ok(res);
+        }
+
+        [HttpPost("nhap-thang-nam-xuat-doanh-thu")]
+        public IActionResult nhapThangVaNamXuatDoanhThuTheoQuocGia(int month, int year)
+        {
+            var res = new SingleRsp();
+            res.Data = _svc.nhapThangVaNamXuatDoanhThuTheoQuocGia(month, year);
+            return Ok(res);
+        }
+
         private readonly CategoriesSvc _svc;
     }
 }
