@@ -13,6 +13,7 @@ namespace LTCSDL.DAL
     using System.Collections.Generic;
     using System.Data;
     using System.Linq;
+    using System.Threading;
 
     public class De7Rep : GenericRep<NorthwindContext, Orders>
     {
@@ -159,21 +160,22 @@ namespace LTCSDL.DAL
         // Câu 3A
         public object Cau3A_findOrderByProductNameWithPaging_LinQ(string keyword, int page, int size)
         {
+            // thực hiện join bảng Order và Order Details thông qua OrderID
             var query = Context.Orders.Join(Context.OrderDetails, a => a.OrderId, b => b.OrderId, (a, b) => new
                 {
                     a.OrderId,
                     b.ProductId
-                }).Join(Context.Products, a => a.ProductId, b => b.ProductId, (a, b) => new
+                }).Join(Context.Products, a => a.ProductId, b => b.ProductId, (a, b) => new // Tiếp đến join với bảng Products để lấy thông tin của Product được order
                 {
                     a.OrderId,
                     a.ProductId,
                     b.ProductName
                 });
             if (!string.IsNullOrEmpty(keyword))
-                query = query.Where(x => x.ProductName.Contains(keyword));
-            var offset = (page - 1) * size;
-            var total = query.Count();
-            int totalPage = (total % size) == 0 ? (int)(total / size) : (int)((total / size) + 1);
+                query = query.Where(x => x.ProductName.Contains(keyword)); // Điều kiện đưa vào để tìm kiếm
+            var offset = (page - 1) * size; // biến offset để giới hạn số dòng muốn hiển thị
+            var total = query.Count(); // tổng số lượng data tìm thấy được
+            int totalPage = (total % size) == 0 ? (int)(total / size) : (int)((total / size) + 1); // tính ra tổng số page có được
             var data = query.OrderBy(x => x.OrderId).Skip(offset).Take(size).ToList();
             var res = new
             {
@@ -184,6 +186,51 @@ namespace LTCSDL.DAL
                 Size = size
             };
             return res;
+        }
+
+        // Câu 3B
+        public object Cau3B_findProductWithoutOrderWithPaging_LinQ(DateTime date, int page, int size) // product khong co don hang
+        {
+            // Lấy ra các Product được order
+            var proOrder = Context.OrderDetails.Join(Context.Orders, a => a.OrderId, b => b.OrderId, (a, b) => new
+            {
+                a.ProductId,
+                a.OrderId,
+                b.OrderDate
+            }).Join(Context.Products, a => a.ProductId, b => b.ProductId, (a, b) => new
+            {
+                b.ProductName,
+                a.ProductId,
+                a.OrderId,
+                a.OrderDate
+            }).Where(x => x.OrderDate.Value.Date == date.Date)
+            .Select(x => new
+            {
+                x.ProductName,
+                x.ProductId
+            }).Distinct().ToList();
+
+            // Lấy ra các Product và loại trừ các Product được order, điều này có nghĩa là sẽ lấy những Product chưa được order trong ngày nhập vào
+            var data = Context.Products.Select(x => new
+            {
+                x.ProductName,
+                x.ProductId
+            }).ToList().Except(proOrder);
+
+            var offset = (page - 1) * size; // biến offset để giới hạn số dòng muốn hiển thị
+            var total = data.Count(); // tổng số lượng data tìm thấy được
+            int totalPage = (total % size) == 0 ? (int)(total / size) : (int)((total / size) + 1); // tính ra tổng số page có được
+            var datas = data.Skip(offset).Take(size).ToList();
+            var res = new
+            {
+                Data = datas,
+                TotalRecord = total,
+                TotalPages = totalPage,
+                Page = page,
+                Size = size
+            };
+            return res;
+
         }
     }
 }

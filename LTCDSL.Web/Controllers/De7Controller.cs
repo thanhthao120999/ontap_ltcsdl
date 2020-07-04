@@ -55,6 +55,14 @@ namespace LTCSDL.Web.Controllers
             return Ok(res);
         }
 
+        [HttpPost("ca3B_get-product-without-order-with-paging_linQ")]
+        public IActionResult Cau3B_findProductWithoutOrderWithPaging_LinQ([FromBody] SearchProductWithoutOrderReq req)
+        {
+            var res = new SingleRsp();
+            res.Data = _svc.Cau3B_findProductWithoutOrderWithPaging_LinQ(req.date, req.page, req.size);
+            return Ok(res);
+        }
+
         private readonly De7Svc _svc;
     }
 }

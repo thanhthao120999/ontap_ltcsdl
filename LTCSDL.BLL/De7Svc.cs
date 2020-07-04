@@ -62,6 +62,17 @@ namespace LTCSDL.BLL
             return res;
         }
 
+        // Câu 3B
+        public object Cau3B_findProductWithoutOrderWithPaging_LinQ(DateTime date, int page, int size)
+        {
+            var res = new SingleRsp();
+
+            var m = _rep.Cau3B_findProductWithoutOrderWithPaging_LinQ(date, page, size);
+            res.Data = m;
+
+            return res;
+        }
+
 
         #endregion
 
