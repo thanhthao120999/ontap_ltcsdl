@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QdtPlxpYqk1suz6Yndw+xewMRc3rLW7cLQNbctrdxjkG8j7nkLu2NB5t1/6KvVwDGQh8lacpc54xVtFLdv8peQ==",
+  "dgSpecHash": "9FhnAAVLbPNhoMyZQOe21qBwA3bNz8O0dVrciKSCK/Xmvjz0Y1WmbBumC43L2e6B6DdgNDymlA+S6ed0/5Is4w==",
   "success": true,
-  "projectFilePath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj",
+  "projectFilePath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phama\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\phama\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {}
+    "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {}
   },
   "projects": {
-    "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj": {
+    "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj",
+        "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj",
         "projectName": "LTCSDL.Common",
-        "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj",
+        "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj",
         "packagesPath": "C:\\Users\\phama\\.nuget\\packages\\",
-        "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\obj\\",
+        "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phama\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {
+    "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\LTCSDL.DAL.csproj",
+        "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.DAL\\LTCSDL.DAL.csproj",
         "projectName": "LTCSDL.DAL",
-        "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\LTCSDL.DAL.csproj",
+        "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.DAL\\LTCSDL.DAL.csproj",
         "packagesPath": "C:\\Users\\phama\\.nuget\\packages\\",
-        "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.DAL\\obj\\",
+        "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phama\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj": {
-                "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj"
+              "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj": {
+                "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj"
               }
             }
           }

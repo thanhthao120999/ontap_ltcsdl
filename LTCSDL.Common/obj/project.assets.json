@@ -637,11 +637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj",
+      "projectUniqueName": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj",
       "projectName": "LTCSDL.Common",
-      "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\LTCSDL.Common.csproj",
+      "projectPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\LTCSDL.Common.csproj",
       "packagesPath": "C:\\Users\\phama\\.nuget\\packages\\",
-      "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192\\LTCSDL.Common\\obj\\",
+      "outputPath": "D:\\On thi LTCSDL\\LTCSDL-192 - DeSo-7\\LTCSDL.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phama\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -26,3 +26,18 @@ D:\On thi LTCSDL\LTCSDL-192\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.csproj
 D:\On thi LTCSDL\LTCSDL-192\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.dll
 D:\On thi LTCSDL\LTCSDL-192\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.pdb
 D:\On thi LTCSDL\LTCSDL-192\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.genruntimeconfig.cache
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.deps.json
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.runtimeconfig.json
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.runtimeconfig.dev.json
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.dll
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.DAL.pdb
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.Common.dll
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\bin\Debug\netcoreapp3.1\LTCSDL.Common.pdb
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.csprojAssemblyReference.cache
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.csproj.CoreCompileInputs.cache
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.AssemblyInfoInputs.cache
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.AssemblyInfo.cs
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.csproj.CopyComplete
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.dll
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.pdb
+D:\On thi LTCSDL\LTCSDL-192 - DeSo-7\LTCSDL.DAL\obj\Debug\netcoreapp3.1\LTCSDL.DAL.genruntimeconfig.cache
