@@ -11,8 +11,6 @@ namespace LTCSDL.BLL
 {
     using DAL;    
     using DAL.Models;
-    using Microsoft.Data.SqlClient;
-    using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
     public class De7Svc : GenericSvc<De7Rep, Orders>
     {
